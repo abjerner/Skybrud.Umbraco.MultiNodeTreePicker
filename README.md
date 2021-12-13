@@ -1,5 +1,11 @@
 # Skybrud.Umbraco.MultiNodeTreePicker
 
+-----
+
+## **Looking for Umbraco 9 version?** [Click here](https://github.com/limbo-works/Limbo.Umbraco.MultiNodeTreePicker)
+
+-----
+
 **Skybrud.Umbraco.MultiNodeTreePicker** adds a special multinode treepicker to the Umbraco 8 backoffice in which developers can select a custom item converter.
 
 The purpose of an item converter is to control the C# type returned by the `.Value()` method or the corresponding property in a ModelsBuilder generated model. This is particular useful in a SPA/Headless Umbraco implementation, where the ModelsBuilder model can then be returned directly via a WebAPI endpoint.
