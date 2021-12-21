@@ -198,7 +198,7 @@ publish/
 PublishScripts/
 
 # NuGet Packages
-*.nupkg
+# *.nupkg
 # NuGet Symbol Packages
 *.snupkg
 # The packages folder can be ignored because of Package Restore
@@ -631,3 +631,5 @@ $RECYCLE.BIN/
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudio,visualstudiocode,csharp
+
+!releases/
